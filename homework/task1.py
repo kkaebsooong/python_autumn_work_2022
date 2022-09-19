@@ -19,17 +19,16 @@ x = 3.14
 print(type(x))
 
 #3
-
-
-if x > 1:
-    print(x)
-
-x = 10500
-print(str(x))
+True
+print(type(True))
 
 #4
-x
-if x is None:
-    print('x is None')
-else:
-    print('x is not None')
+
+print(type(str(x)))
+
+#5
+def function():
+    x = 1
+    y =2
+    x > y
+print(type(function()))
