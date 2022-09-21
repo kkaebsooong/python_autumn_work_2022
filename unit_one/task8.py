@@ -8,8 +8,7 @@ C = 7
 # A = 3
 # B = 7
 # C = 10
-A,B,C = B,C,A
-print(A,B,C)
+
 
 
 # Пример 2:
@@ -20,5 +19,21 @@ C = 7
 # A = 2
 # B = 7
 # C = 10
-A,B,C = A,C,B
-print(A,B,C)
+
+
+a = 170
+b = 500
+c = 10
+
+if a > b and b > c and a > c:
+    print(c,b,a)
+elif a < b and c < b and a > c:
+    print(c,a,b)
+elif a < b and b < c and a < c:
+    print(a,b,c)
+elif b < a and b <c and a < c:
+    print(b,a,c)
+elif a > b and a > c and b < c:
+    print(b,c,a)
+else:
+    print(a,c,b)
