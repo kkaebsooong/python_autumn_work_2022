@@ -16,6 +16,6 @@ b = '25.04.2022 Good morning !!'
 
 print(b)
 
-b_new = ''.join(i for i in b if i.isalpha())
+b_new = (''.join(i for i in b if i.isalpha())).lower()
 print(''.join(dict.fromkeys(b_new)))
 
